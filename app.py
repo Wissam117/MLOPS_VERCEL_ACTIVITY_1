@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Deploying Flask App at Vercel"
+    return "Deploying Flask App at Vercell"
 
 if __name__ == '__main__':
     app.run(debug=True)
